@@ -1,0 +1,13 @@
+public class DisplayInformation {
+    public static void main(String[] args) {
+        System.out.println("Name: Lil nigga");
+        System.out.println("Student ID: 20261001");
+        System.out.println("Age: 20");
+        System.out.println("Email: john.doe@example.com");
+        System.out.println("Phone: +1234567890");
+        System.out.println("Address: 123 Java Street, Tech City");
+      System.out.println("\n----------------------------\n");
+  System.out.printf("Name: %s\nID: %s\nAge: %d\nEmail: %s\nPhone: %s\nAddress: %s\n", 
+    "Lil nigga", "20261001", 20, "john.doe@example.com", "+1234567890", "123 Java Street, Tech City");
+    }
+}
